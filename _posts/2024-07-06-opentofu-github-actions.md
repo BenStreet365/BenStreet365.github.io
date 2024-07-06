@@ -122,4 +122,8 @@ Once this code is merged to the main channel on your repo, you can check the pro
 ![GitHub Action successfully ran](/assets/secretless-iac/secretless-iac6.png)
 
 ## Final thoughts
-Personally, I would now say that this is a secretless method to be able to deploy infrastructure through IaC. Whilst not truly secretless in a sense of there's no identities involved at all, the sensitivity of the information used is instead deemed much less risky and that's a winner for everyone. Please don't use the code above for anything other than a proof of concept, it's all for example purposes only. Your missing state file for starters would cause you some great concern. Have a great weekend.
+Personally, I would now say that this is a secretless method to be able to deploy infrastructure through IaC. Whilst not truly secretless in a sense of there's no identities involved at all, the sensitivity of the information used is instead deemed much less risky and that's a winner for everyone. Please don't use the code above for anything other than a proof of concept, it's all for example purposes only. Your missing state file for starters would cause you some great concern.
+
+A quick mention to The Linux Foundation and the contributors towards the OpenTofu open-source project that have done excellent work with OpenTofu as an alternative to Terraform. 
+
+Have a great weekend.
