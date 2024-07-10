@@ -4,6 +4,7 @@ title:  OpenTofu and GitHub Actions - "secret-less" IaC
 tags: opentofu terraform iac infrastructure as code github actions automated
 category: Microsoft Azure
 permalink: /opentofu-github-actions
+description: Passwords and secrets are the bane of the IT guys existance. Can we reduce the need?
 ---
 
 # Is it *really* secret-less?
