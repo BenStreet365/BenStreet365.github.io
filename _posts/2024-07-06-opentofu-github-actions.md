@@ -112,8 +112,7 @@ jobs:
         run: |
           tofu init 
           tofu apply -auto-approve
-        env:
-          {% raw %}
+        env: {% raw %}
           TF_VAR_client_id: ${{ secrets.CLIENT_ID }} # Brings in the secrets from the GitHub Repo
           TF_VAR_tenant_id: ${{ secrets.TENANT_ID }}
           TF_VAR_subscription_id: ${{ secrets.SUBSCRIPTION_ID }}
