@@ -113,9 +113,9 @@ jobs:
           tofu init 
           tofu apply -auto-approve
         env:
-          TF_VAR_client_id: $\{\{ secrets.CLIENT_ID \}\} # Brings in the secrets from the GitHub Repo
-          TF_VAR_tenant_id: $\{\{ secrets.TENANT_ID \}\}
-          TF_VAR_subscription_id: $\{\{ secrets.SUBSCRIPTION_ID \}\}
+          TF_VAR_client_id: $\{{ secrets.CLIENT_ID \}} # Brings in the secrets from the GitHub Repo
+          TF_VAR_tenant_id: $\{{ secrets.TENANT_ID \}}
+          TF_VAR_subscription_id: $\{{ secrets.SUBSCRIPTION_ID \}}
 ```
 
 Once this code is merged to the main channel on your repo, you can check the progress through the Actions tab. If you've done everything correctly, and my instructions have been good enough, you should be greeted with a nice green tick and when you check Azure you should see your new resource group.
